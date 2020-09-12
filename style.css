@@ -1,0 +1,194 @@
+*{margin: 0;padding: 0;outline: 0;}
+.wrapper{
+    width: 100%;
+    margin: 0 auto;
+    display: flow-root;
+}
+.header{
+    width: 100%;
+    background: #ABA355;
+    height: 80px;
+}
+.logo{
+    width: 20%;
+    float: left;
+}
+.navbar{
+    width: 60%;
+    float: left;
+    text-align: center;
+}
+.navbar ul li {
+    list-style: none;
+    display: inline-block;
+    margin: 25px 4px;
+}
+.navbar ul li a {
+    text-decoration: none;
+    display: block;
+    padding: 4px 20px;
+    color: #F1EEEE;
+    font-size: 20px;
+}
+.navbar ul li a:hover{
+    color: gold;
+}
+.banner {
+    width: 100%;
+    background-image: url(img/banner.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    position: relative;
+}
+.bposition img{
+ 
+}
+.bposition .fb {
+    position: absolute;
+    top: 359px;
+    width: 130px;
+    right: -65px;
+    position: fixed;
+    transition-duration: .8s;
+    cursor: pointer;
+}
+.bposition .fb:hover{
+    right: 0;
+}
+.bposition .tw {
+    position: absolute;
+    top: 408px;
+    width: 130px;
+    right: -65px;
+    position: fixed;
+    transition-duration: .8s;
+    cursor: pointer;
+}
+.bposition .tw:hover{
+    right: 0;
+}
+.bposition .yt {
+    position: absolute;
+    top: 456px;
+    width: 130px;
+    right: -65px;
+    position: fixed;
+    transition-duration: .8s;
+    cursor: pointer;
+}
+.bposition .yt:hover{
+    right: 0;
+}
+.banner .text {
+    text-align: center;
+    color: #fff;
+    padding: 191px 234px;
+}
+.banner .text h2 {
+    font-size: 38px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    margin-bottom: 4px;
+    text-shadow: 2px 2px 3px #91A;
+}
+.banner .text p {
+    font-size: 20px;
+    line-height: 21px;
+}
+.banner .text button {
+    padding: 9px 30px;
+    font-size: 19px;
+    margin-top: 21px;
+    border-radius: 5px;
+    border: none;
+    background: #3affd1;
+    color: #000;
+    cursor: pointer;
+}
+.banner .text button:hover{
+    color:#fff;
+    background: #099474;
+}
+.subscribe {
+    width: 400px;
+    background: linear-gradient(45deg,#27dbe9,#227ede);
+    margin: 20px auto;
+    box-shadow: 2px 2px 10px #999;
+}
+.subscribe h2 {
+    text-align: center;
+    font-size: 34px;
+    padding: 36px 0px 1px 0px;
+    color: #8a8484;
+}
+.subscribe p {
+    text-align: center;
+    color: #8a8484;
+    letter-spacing: 1px;
+}
+.form {
+    display: block;
+    padding-bottom: 45px;
+    position: relative;
+}
+.form .input {
+    margin: 25px 3px 3px 64px;
+    padding: 9px 7px;
+    width: 188px;
+    background: transparent;
+    border: none;
+    border: 1px solid #fff;
+    box-shadow: 2px 2px 9px #999;
+}
+.btn {
+    position: absolute;
+    top: 25px;
+    left: 267px;
+    padding: 9px 9px;
+    border: 1px solid #fff;
+    font-size: 13px;
+    background: #CDC894;
+    color: #fff;
+    box-shadow: 2px 2px 9px #999;
+    cursor: pointer;
+}
+.position {
+    text-align: center;
+    position: relative;
+}
+.position img{}
+.tl {
+    position: absolute;
+    top: 20px;
+    left: 308px;
+    font-size: 30px;
+    color: #fff;
+}
+.tr{
+    position: absolute;
+    top: 20px;
+    left: 703px;
+    font-size: 30px;
+    color: #fff;
+}
+.bl {
+    position: absolute;
+    font-size: 30px;
+    color: #fff;
+    top: 361px;
+    left: 305px;
+}
+.br {
+    position: absolute;
+    top: 361px;
+    left: 667px;
+    font-size: 30px;
+    color: #fff;
+}
+.main {
+    position: absolute;
+    font-size: 40px;
+    color: #fff;
+    top: 175px;
+    left: 421px;
+}
